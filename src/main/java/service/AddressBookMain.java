@@ -1,10 +1,9 @@
 package service;
+import model.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class AddressBookMain {
-
-	public static void main(String[] args) {
-		System.out.println("Welcome to address book");
-
-	}
-
+	List<ContactDetails> personDetails = new ArrayList<>();
+	
 }
