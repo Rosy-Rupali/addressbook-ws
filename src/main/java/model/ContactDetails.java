@@ -16,6 +16,20 @@ public class ContactDetails {
 	private long phone_number;
 	private String email_id;
 	
+	
+	
+	public ContactDetails(String first_name, String last_name, String address, String city, String state, int zip,
+			long phone_number, String email_id) {
+		super();
+		this.first_name = first_name;
+		this.last_name = last_name;
+		this.address = address;
+		this.city = city;
+		this.state = state;
+		this.zip = zip;
+		this.phone_number = phone_number;
+		this.email_id = email_id;
+	}
 	public String getFirst_name() {
 		return first_name;
 	}
